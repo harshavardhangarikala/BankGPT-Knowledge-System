@@ -1,0 +1,22 @@
+# Supplied proprietary website crawls MUST NOT be published.
+/snapshots/*
+!/snapshots/README.md
+/snapshots_zip/
+*.zip
+# Secrets and private credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+*secrets*
+# Generated artifacts and caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+/results/
+*.log
+.DS_Store
+.idea/
+.vscode/
